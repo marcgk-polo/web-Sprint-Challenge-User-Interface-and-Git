@@ -58,16 +58,26 @@ time, mark, audio, video {
 }
 
 .about-section {
-    margin-left:1em;
-    margin-right:1em;
+    border-bottom:1px dashed black;
+    padding:0 1em;
+}
+
+.about-section p {
+    margin-bottom:1em;
 }
 
 .values-row {
     display:flex;
+    justify-content: space-evenly;
     margin-top: 1.5em;
     margin-bottom: 3em;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+.values-box {
+    border-bottom:1px dashed black;
+    margin: 0 1em;
 }
 
 
@@ -76,7 +86,7 @@ button {
     background-color: white;
     padding: .5em 1.25em .5em 1.25em;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 1.25em;
 }
 
 .call-to-action {
