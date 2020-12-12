@@ -25,11 +25,18 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 
+.super-nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:800px;
+    margin: 0 auto;
+}
+
 .nav-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom:3em;
     width:800px;
 }
 
