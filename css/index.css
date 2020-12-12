@@ -32,13 +32,27 @@ time, mark, audio, video {
     align-items: center;
 }
 
+.nav-links a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-links a:visited { 
+    text-decoration: none; 
+    color:black; 
+}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
 body {
-	line-height: 1;
+    line-height: 1;
+    width:80%;
+    margin-top: 3%;
+    margin-left:10%;
+    margin-right:10%;
 }
 ol, ul {
 	list-style: none;
