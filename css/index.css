@@ -58,18 +58,25 @@ time, mark, audio, video {
 .values-row {
     display:flex;
     margin-top: 1.5em;
-    margin-bottom: 4em;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
 button {
     border-radius: 6px;
     background-color: white;
-    padding: .3em 1.25em .3em 1.25em;
+    padding: .5em 1.25em .5em 1.25em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
+.call-to-action {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
 
 /*
 old code V
