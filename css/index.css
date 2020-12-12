@@ -25,11 +25,11 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 
-
 .nav-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom:3em;
 }
 
 .nav-links a:link {
@@ -41,6 +41,20 @@ time, mark, audio, video {
     text-decoration: none; 
     color:black; 
 }
+
+.about-image {
+   display:flex;
+   justify-content: center;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+
+
+
+/*
+old code V
+*/
+
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
